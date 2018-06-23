@@ -9,5 +9,9 @@ module FormsLab
     get '/new' do
       erb :'pirates/new'
     end
+    
+    get '/pirates' do
+      erb :'pirates/show'
+    end
   end
 end
