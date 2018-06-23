@@ -1,10 +1,10 @@
 class Ship
   attr_accessor :name, :type, :booty
   
-  @@all = []
+  SHIPS = []
   
   def self.all
-    @@all
+    SHIPS
   end
   
   def initialize(params)
