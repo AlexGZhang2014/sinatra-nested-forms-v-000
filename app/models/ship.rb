@@ -7,10 +7,10 @@ class Ship
     SHIPS
   end
   
-  def initialize(args)
-    @name = args[:name]
-    @type = args[:type]
-    @booty = args[:booty]
+  def initialize(params)
+    @name = params[:name]
+    @type = params[:type]
+    @booty = params[:booty]
   end
   
   def self.clear
