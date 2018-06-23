@@ -7,5 +7,6 @@ class Pirate
     PIRATES
   end
   
-  
+  def initialize
+  end
 end
