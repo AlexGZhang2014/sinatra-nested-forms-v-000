@@ -12,4 +12,8 @@ class Ship
     @type = args[:type]
     @booty = args[:booty]
   end
+  
+  def self.clear
+    self.all.clear
+  end
 end
